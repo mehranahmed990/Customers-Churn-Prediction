@@ -1,32 +1,61 @@
-# Customers Churn Prediction
+# 🏦 Customer Churn Prediction
 
-## Project Description
-This project aims to predict customer churn using machine learning techniques. By analyzing customer data, we can identify patterns and factors that lead to churn, enabling businesses to take proactive measures to retain their customers.
+This project focuses on predicting customer churn in the U.S. consumer banking industry using machine learning techniques.  
+The goal is to help banks identify at-risk customers so they can proactively improve retention strategies, reduce costs, and increase profitability.
 
-## Features
-- Data exploration and preprocessing
-- Visualization of customer behavior
-- Implementation of various machine learning models
-- Evaluation of model performance
-- User-friendly interface for predictions
+---
 
-## Usage Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mehranahmed990/Customers-Churn-Prediction.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Customers-Churn-Prediction
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the main application:
-   ```bash
-   python main.py
-   ```
+## 📌 Project Description
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+As the U.S. consumer banking industry expands, so do customer expectations. Retaining existing customers is far more cost-effective than acquiring new ones—according to Brillio, "acquiring a new customer is six to seven times more costly than keeping an existing one."  
+
+However, a study from Invesp shows that many companies still spend more on acquisition than retention, which is a costly mistake. Current customers not only spend more but are also more open to exploring new products.  
+
+By analyzing churn patterns, banks can improve customer satisfaction, prioritize high-risk groups, and boost overall retention rates.
+
+---
+
+## 🎯 Objectives
+
+The primary challenge is to **develop a predictive system** that identifies customers most likely to leave the bank.  
+
+Key goals:
+- Build a **classification model** to predict churn.
+- Explore **predictors of customer departure**, such as:
+  - Are female customers leaving more than males?
+  - Which **age groups** are more likely to churn?
+  - Are departures associated with **specific countries** (France, Spain, Germany)?
+  - Is **salary** linked to churn?
+
+---
+
+## 📊 Data Collection
+
+- **Source**: Dataset provided by *Kirill Eremenko* (Data Science consultant) through the SuperDataScience platform.
+- **Sample**: 10,000 customers randomly selected over a six-month period.
+- **Attributes**: Customer churn status + 12 demographic and banking features.
+- **Countries**: France, Spain, Germany.
+
+---
+
+## ❓ Research Question
+
+Can we use customer data to predict which customers will stay or exit?  
+
+This insight will help the bank design **targeted marketing strategies** and retention programs to minimize churn and maximize customer lifetime value.
+
+---
+
+## ▶️ Run the Notebook
+
+You can run this notebook directly in Google Colab:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mehranahmed990/Customers-Churn-Prediction/blob/main/Customer_Churn_Prediction.ipynb)
+
+---
+
+## 🔧 Requirements
+
+Install dependencies with:
+```bash
+pip install -r requirements.txt
+```
